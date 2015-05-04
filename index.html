@@ -164,31 +164,26 @@ layout: false
 
 ## Basis set repo
 
-- Own repo
-- Public
-- JSON API
+- Should be own repo
+- Make it public
+- JSON API (or some other standard API)
+- Versionned
 
 ---
 
 ## Licensing
 
-- Write me
+- Allow derived products
+- Allow external contributions
+- Simplify funding
+- Standard licenses better than customized
+- Compatibility is an issue (git submodules)
 
 ---
 
 ## Training
 
 - Write me
-
----
-
-## Efficient issue tracking
-
-- ChangeLog
-- Milestones
-- Efficient issue tracking features
-- Public issues
-- testboard.org
 
 ---
 
@@ -208,13 +203,20 @@ layout: false
     - Milestones
     - Auto-closing gives well defined lifetime
 
+### Efficient issue tracking
+
+- ChangeLog
+- Milestones
+- Public issues
+- https://testboard.org
+
 ---
 
 ## Modern documentation
 
 - Rendered using Sphinx
 - Served via ReadTheDocs
-- Update upon push
+- Update upon push (post-receive hook)
 - Developer&#39;s manual
 - Reply by doc
 
@@ -222,9 +224,12 @@ layout: false
 
 ## Simplify, simplify, simplify
 
-- Complexity, state, FP
+- Avoid complexity
+- Fear state
+- Use functional programming style
+- Referential transparency
 - YAGNI
-- Crypto-coding
+- Avoid crypto-coding
 - Cut all dead wood
 - Modularize or die
 
@@ -232,7 +237,17 @@ layout: false
 
 ## Semantic versioning
 
-- Write me
+- We have many modules/libraries and dependencies and they evolve
+- Given a version number MAJOR.MINOR.PATCH, increment the:
+    - MAJOR version when you make incompatible API changes
+    - MINOR version when you add functionality in a backwards-compatible manner
+    - PATCH version when you make backwards-compatible bug fixes
+- http://semver.org
+- Example:
+    - Library OpenRSP requires package Gen1Int
+    - At the time that OpenRSP is created, Gen1Int is at version 3.1.0
+    - We can safely specify the dependency as greater than or equal to 3.1.0 but less than 4.0.0
+    - When Gen1Int version 3.1.1 and 3.2.0 become available, they will be compatible
 
 ---
 
@@ -250,13 +265,19 @@ layout: false
 
 ## Provide benchmarks
 
-- Write me
+- Useful for proposals
+- Useful for support personnel
+- Useful for hardware vendors
+- Important for time tests
 
 ---
 
 ## Market success stories
 
-- Write me
+- Good for proposals
+- Attract users
+- Attract developers
+- Image carousel
     </textarea>
 
     <script src="/talk-modern-code-devel/refreeze/js/remark-latest.min.js" type="text/javascript"></script>
