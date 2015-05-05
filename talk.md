@@ -25,7 +25,7 @@ layout: false
 
 - Traditional approach: "Please give me access to the main development line and I will program something."
 - Code review: "Here, I have programmed something. Please review and merge it to the main development line if you like it."
-- Basically a peer-review for code
+- Peer-review for code
 - Slower in the short-term, faster in the long-term
 - Better quality code
 - Allows to enforce a certain style/policy/philosophy
@@ -34,32 +34,6 @@ layout: false
     - Team from the programmer
 - Code review can be coupled with automatic testing and coverage analysis
 - Decentralized development
-
----
-
-## Basis set repo
-
-- Should be own repo
-- Make it public
-- JSON API (or some other standard API)
-- Versionned
-
----
-
-## Licensing
-
-- Allow derived products
-- Allow external contributions
-- Simplify funding
-- Standard licenses better than customized
-- Compatibility is an issue (git submodules)
-
----
-
-## Training
-
-- Modern code development tools and practices need to be part of the curriculum
-  for students who program
 
 ---
 
@@ -88,16 +62,6 @@ layout: false
 
 ---
 
-## Modern documentation
-
-- Rendered using Sphinx
-- Served via ReadTheDocs
-- Update upon push (post-receive hook)
-- Developer's manual
-- Reply by doc
-
----
-
 ## Simplify, simplify, simplify
 
 - Avoid complexity
@@ -107,22 +71,6 @@ layout: false
 - YAGNI
 - Cut all dead wood
 - Modularize or die
-
----
-
-## Semantic versioning
-
-- We have many modules/libraries and dependencies and they evolve
-- Given a version number MAJOR.MINOR.PATCH, increment the:
-    - MAJOR version when you make incompatible API changes
-    - MINOR version when you add functionality in a backwards-compatible manner
-    - PATCH version when you make backwards-compatible bug fixes
-- http://semver.org
-- Example:
-    - Library OpenRSP requires package Gen1Int
-    - At the time that OpenRSP is created, Gen1Int is at version 3.1.0
-    - We can safely specify the dependency as greater than or equal to 3.1.0 but less than 4.0.0
-    - When Gen1Int version 3.1.1 and 3.2.0 become available, they will be compatible
 
 ---
 
@@ -152,6 +100,51 @@ layout: false
 
 ---
 
+## Licensing
+
+- Allow derived products
+- Allow external contributions
+- Simplify funding
+- Standard licenses better than customized
+- Compatibility is an issue (git submodules)
+
+---
+
+## Modern documentation
+
+- Rendered using Sphinx
+- Served via ReadTheDocs
+- Update upon push (post-receive hook)
+- Developer's manual
+- Reply by doc
+
+---
+
+## Semantic versioning
+
+- We have many modules/libraries and dependencies and they evolve
+- Given a version number MAJOR.MINOR.PATCH, increment the:
+    - MAJOR version when you make incompatible API changes
+    - MINOR version when you add functionality in a backwards-compatible manner
+    - PATCH version when you make backwards-compatible bug fixes
+- http://semver.org
+- Example:
+    - Library OpenRSP requires package Gen1Int
+    - At the time that OpenRSP is created, Gen1Int is at version 3.1.0
+    - We can safely specify the dependency as greater than or equal to 3.1.0 but less than 4.0.0
+    - When Gen1Int version 3.1.1 and 3.2.0 become available, they will be compatible
+
+---
+
+## Basis set repo
+
+- Should be own repo
+- Make it public
+- JSON API (or some other standard API)
+- Versionned
+
+---
+
 ## Provide benchmarks
 
 - Useful for proposals
@@ -167,3 +160,10 @@ layout: false
 - Attract users
 - Attract developers
 - Image carousel
+
+---
+
+## Training
+
+- Modern code development tools and practices need to be part of the curriculum
+  for students who program
