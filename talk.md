@@ -23,8 +23,8 @@ layout: false
 
 ## Code review
 
-- Traditional approach: "Please give me access to the main development line and I will program something."
-- Code review: "Here, I have programmed something. Please review and merge it to the main development line if you like it."
+- Traditional approach: "Please give me access to the main development line and I will program something and I promise not to break anything."
+- Code review: "Here, I have programmed something. Please review and merge it to the main development line if you like it. The green badge shows that I did not break anything."
 - Peer-review for code
 - Slower in the short-term, faster in the long-term
 - Better quality code
