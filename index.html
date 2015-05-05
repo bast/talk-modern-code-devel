@@ -149,15 +149,29 @@ Code examples: OSI-approved MIT license.
 
 layout: false
 
-## TDD
+## Test-driven development
 
+- First write tests, then verify that tests fail, then write functionality until tests pass
+- TDD avoids gold-plating
+- Tests protect functionality
+- Functionality without tests will break at some point
+- (Unit) tests are the most accurate documentation
 - Code coverage
 
 ---
 
 ## Code review
 
-- Code review
+- Traditional approach: &#34;Please give me access to the main development line and I will program something.&#34;
+- Code review: &#34;Here, I have programmed something. Please review and merge it to the main development line if you like it.&#34;
+- Basically a peer-review for code
+- Slower in the short-term, faster in the long-term
+- Better quality code
+- Allows to enforce a certain style/policy/philosophy
+- Efficient tool to learn
+    - Programmer from the team
+    - Team from the programmer
+- Code review can be coupled with automatic testing and coverage analysis
 - Decentralized development
 
 ---
@@ -183,7 +197,8 @@ layout: false
 
 ## Training
 
-- Write me
+- Modern code development tools and practices need to be part of the curriculum
+  for students who program
 
 ---
 
@@ -229,7 +244,6 @@ layout: false
 - Use functional programming style
 - Referential transparency
 - YAGNI
-- Avoid crypto-coding
 - Cut all dead wood
 - Modularize or die
 
@@ -253,13 +267,27 @@ layout: false
 
 ## Human time vs CPU time
 
-- Write me
+*&#34;Programs aren&#39;t written for computers: they&#39;re written for other programmers who will have to integrate and maintain them.&#34;*
+[C++ In Action: Industrial Strength Programming Techniques by Bartosz Milewski]
+
+- Human time is more valuable than CPU time
+- No SIXLTR variables
+- Pure functions
+- Make your code readable and understandable by others
+- Document what functions do
+- If you cannot describe a function in one sentence, it is too complicated
+- If the description contains &#34;and&#34;, &#34;or&#34;, &#34;except&#34;, &#34;also&#34;, it is too complicated
+- If the function does not fit on one screen it is too complicated
 
 ---
 
 ## Single-core performance does not matter
 
-- Write me
+- The slower code that scales catches the worm
+- Codes that scale get more grants
+- Codes that scale get to run on modern supercomputers
+- Codes that scale can utilize modern hardware architectures
+- Functional programming
 
 ---
 
