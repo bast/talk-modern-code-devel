@@ -168,24 +168,15 @@ def get_num_page_visits():
 
 - We have many modules/libraries and dependencies and they evolve
 - Given a version number MAJOR.MINOR.PATCH, increment the:
-    - MAJOR version when you make incompatible API changes
-    - MINOR version when you add functionality in a backwards-compatible manner
     - PATCH version when you make backwards-compatible bug fixes
+    - MINOR version when you add functionality in a backwards-compatible manner
+    - MAJOR version when you make incompatible API changes
 - http://semver.org
 - Example:
     - Library OpenRSP requires package Gen1Int
     - At the time that OpenRSP is created, Gen1Int is at version 3.1.0
     - We can safely specify the dependency as greater than or equal to 3.1.0 but less than 4.0.0
     - When Gen1Int version 3.1.1 and 3.2.0 become available, they will be compatible
-
----
-
-## Basis set repo
-
-- Should be own repo
-- Make it public
-- JSON API (or some other standard API)
-- Versionned
 
 ---
 
