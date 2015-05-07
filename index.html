@@ -149,6 +149,13 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 
 layout: false
 
+## Version control
+
+- No-brainer
+- Mandatory for reproducible scientific results
+
+---
+
 ## Test-driven development
 
 - First write tests, then verify that tests fail, then write functionality until tests pass
@@ -193,13 +200,16 @@ layout: false
     - Milestones
     - Auto-closing gives well defined lifetime
 
-### Efficient issue tracking
+---
+
+## Efficient issue tracking
 
 - ChangeLog
 - Assign to yourself once you start working on it
 - Milestones
 - Public issues
 - https://testboard.org
+- Do not bugtrack in your head
 
 ---
 
@@ -208,10 +218,39 @@ layout: false
 - Avoid complexity
 - Fear state
 - Use functional programming style
-- Referential transparency
 - YAGNI
 - Cut all dead wood
 - Modularize or die
+- Referential transparency
+
+---
+
+## Referential transparency
+
+- Referential transparency
+
+```python
+def add_numbers(i, j):
+    return i + j
+```
+
+- Referential opacity
+
+```python
+def get_num_page_visits():
+    global num_page_visits
+    num_page_visits = num_page_visits + 1
+    return num_page_visits
+```
+
+- Referential transparency makes it easier to
+    - Simplify
+    - Optimize
+    - Refactor
+    - Memoize
+    - Parallelize
+    - Reuse
+    - Test
 
 ---
 
