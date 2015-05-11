@@ -50,6 +50,7 @@ layout: false
 - Emails get lost or overlooked
 - Issues
     - Clear what issues are known
+    - Clear whether somebody is working on it (assign to yourself once you start working on it)
     - Clear who is working on it
     - Clear whether an issue is solved
     - Permanent (also future generations can follow them)
@@ -60,17 +61,6 @@ layout: false
     - Labels
     - Milestones
     - Auto-closing gives well defined lifetime
-
----
-
-## Efficient issue tracking
-
-- Use/generate ChangeLog
-- Assign to yourself once you start working on it
-- Use Milestones
-- Public issues
-- https://testboard.org
-- Do not bugtrack in your head
 
 ---
 
