@@ -10,9 +10,7 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 
 layout: false
 
-## Challenges
-
-What are the biggest challenges:
+## What are the biggest challenges?
 
 - Functionality (publications)
 - Performance (new territories)
