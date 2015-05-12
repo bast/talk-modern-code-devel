@@ -99,6 +99,12 @@ layout: false
 
 ## Simplify, simplify, simplify
 
+<img src="{{ base }}/img/wires.jpg" style="width: 700px;"/>
+
+---
+
+## Simplify, simplify, simplify
+
 - Avoid complexity
 - Fear state
 - Use functional programming style
