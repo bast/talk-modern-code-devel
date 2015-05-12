@@ -10,6 +10,41 @@ Code examples: [OSI](http://opensource.org)-approved [MIT license](http://openso
 
 layout: false
 
+## Challenges
+
+What are the biggest challenges:
+
+- Functionality (publications)
+- Performance (new territories)
+- Scaling (peta/exa-scale)
+- Usability, ease of deployment
+- Portability
+- Adaptivity to new algorithms, new hardware, new software,
+  new functionality
+- Extensibility
+- **Complexity**
+- Projects "fail" because of complexity
+
+---
+
+<img src="{{ base }}/img/joe-paradiso-modular-synth-large.png" style="width: 700px;"/>
+
+- Copyright Joe Paradiso (MIT)
+
+---
+
+<img src="{{ base }}/img/joe-paradiso-modular-synth-front.png" style="width: 700px;"/>
+
+- Copyright Joe Paradiso (MIT)
+
+---
+
+<img src="{{ base }}/img/joe-paradiso-modular-synth-back.png" style="width: 700px;"/>
+
+- Copyright Joe Paradiso (MIT)
+
+---
+
 ## Version control
 
 - No-brainer
